@@ -1,0 +1,99 @@
+html {
+	position: relative;
+}
+body {
+	font-family: arial;
+	text-align: center;
+	color: red;
+	margin-top: 80px;
+	margin-bottom: 150px;
+	background-color: #e7e7e7;
+}
+input{
+	font-size: 15px;
+	padding: 10px 15px;
+	margin: 5px 0px;
+	box-sizing: border-box;
+	border: 2px solid gray;
+	border-radius: 3px;
+	width: 40%;
+
+}
+input[type=submit] {
+	font-weight: bold;
+}
+input[type=text],input[type=password] {
+	width: 100%;
+}
+table {
+	position: fixed;
+	left: 0;
+	width: 100%;
+	background-color: white;
+}
+label,h1 {
+	color: black;
+}
+input[type=submit]:hover {
+	background-color: black;
+	color: white;
+}
+
+.back a:hover, .back a:active {
+	background-color: black;
+    color: white;
+}
+.td {
+	width: 30%;
+}
+.tt {
+	width: 150px;
+}
+h4 {
+	position: absolute;
+	top: 280px;
+	left: 45%;
+}
+.daf a {
+	color: black;
+}
+.daf a:hover {
+	color: red;
+}
+.daf:hover {
+	text-decoration: underline;
+}
+.navbar{
+	background: gray;
+	top: 0;
+	min-height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-family: arial;
+	font-size: 15px;
+	position: fixed;
+	z-index: 2;
+	overflow: visible;
+}
+.navbar a{
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+.nav-brand {
+	width: 10%;
+}.nav-click {
+	width: 10%;
+	border-left: 2px solid white;
+}
+.nav0 {
+	left: 0;
+}
+.nav1 {
+	right: 0;
+}
+.nav11 {
+	border-left: 2px solid white;
+	width: 80%;
+	left: 10%;
+}

@@ -1,0 +1,24 @@
+td, th {
+		border: 1px solid black;
+		padding: 8px;
+}
+table {
+		font-family: Arial;
+		border-collapse: collapse;
+		text-align: center;
+}
+th {
+		background-color: gray;
+		color: white;
+}
+tr {
+		background-color: white;
+		-webkit-transition: .3s;
+		-moz-transition: .3s;
+		-o-transition: .3s;
+		transition: .3s;
+}
+h1 {
+		text-align: center;
+		font-family: arial;
+}

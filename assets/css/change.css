@@ -1,0 +1,44 @@
+body {
+	font-family: arial;
+	background-color:hsl(0, 0%, 71%);
+}
+table {
+	width: 80%;
+}
+input[type=text] {
+	width: 800px;
+	padding: 15px 20px;
+	box-sizing: border-box;
+	border: 2px solid;
+	border-radius: 5px;
+}
+input[type=file] {
+	width: 300px;
+	padding: 15px 20px;
+	background-color: white;
+	border: 2px solid;
+	border-radius: 5px;
+} 
+button {
+	background-color: black;
+	color: white;
+	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border: none;
+	border: 1px solid black;
+}
+button:hover {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+}
+button a{
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+}
+button a:hover {
+	color: black;
+}

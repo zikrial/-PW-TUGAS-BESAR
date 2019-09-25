@@ -1,0 +1,171 @@
+html {
+	position: relative;
+}
+body {
+		background-image: url(../image/sebastian-garcia.jpg);
+		background-repeat: no-repeat;
+		margin-top: 50px;
+		margin-bottom: 150px;
+}
+td, th {
+		border: 2px solid black;
+		padding: 10px;
+}
+table {
+		border: 3px solid gray;
+		font-family: Arial;
+		border-collapse: collapse;
+		width: 800PX;
+		height: 50%;
+		text-align: center;
+}
+th {
+		background-color: darkgray;
+		color: white;
+}
+tr {
+		background-color: white;
+		-webkit-transition: .3s;
+		-moz-transition: .3s;
+		-o-transition: .3s;
+		transition: .3s;
+}
+tr:hover {
+		background-color: silver;
+		color: white;
+}
+td:hover {
+		background-color: gray;
+		color: white;
+}
+h1 {
+		padding-top: 20px;
+		color: white;
+		text-align: center;
+		font-family: arial;
+}
+a {
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+.kembali a:link, .kembali a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 10px 24.6%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.kembali a:hover, .kembali a:active {
+	background-color: black;
+	color: white;
+}
+.navbar{
+	background: gray;
+	top: 0;
+	min-height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-family: arial;
+	font-size: 15px;
+	position: fixed;
+	z-index: 2;
+	overflow: visible;
+}
+.navbar a{
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+.nav-brand {
+	width: 10%;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+}.nav-click {
+	width: 10%;
+	border-left: 2px solid white;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+}
+.nav0 {
+	left: 0;
+}
+.nav1 {
+	right: 0;
+}
+.nav2 {
+	width: 15%;
+	right: 10%;
+}
+.nav3 {
+	width: 10%;
+	right: 25%;
+}
+.nav10 {
+	border-left: 2px solid white;
+	width: 50%;
+	left: 10%;
+}
+.nav11 {
+	border-left: 2px solid white;
+	width: 70%;
+	left: 10%;
+}
+.navx {
+	width: 80%;
+	left: 10%;
+}
+input[type=text] {
+	float: left;
+	margin-left: 10px;
+	margin-top: 6px;
+	width: 30%;
+	padding: 8px 13px;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+.tombol {
+	background-color: #555555;
+	color: white;
+	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border: 0;
+	border-radius: 5px;
+}
+.tombol:hover {
+	background-color: white;
+	color: black;
+}
+.but {
+	width: 50%;
+    padding: 10px;
+    position: relative;
+    left: 240px;
+}
+.but a:hover {
+	background-color: gray;
+}
+.tidak {
+	left: 23.9%;
+	top: 157px;
+	position: absolute;
+	padding-top: 120px;
+	z-index: -1;
+	width: 790px;
+	height: 298px;
+	background: radial-gradient(circle, black, white);
+	border: 1px solid black;
+}
+.tidak:hover {
+	background: radial-gradient(circle, black, gray);
+}
